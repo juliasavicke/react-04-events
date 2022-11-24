@@ -1,0 +1,17 @@
+.feature {
+  text-align: center;
+  color: #333;
+  padding: 1rem 0;
+}
+/*  Tablet  */
+@media screen and (min-width: 425px) {
+  .feature {
+    padding: 2rem 0;
+  }
+}
+/*  Desktop  */
+@media screen and (min-width: 768px) {
+  .feature {
+    padding: 3rem 0;
+  }
+}

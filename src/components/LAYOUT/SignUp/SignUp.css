@@ -1,0 +1,21 @@
+.signup {
+  background-color: #d6e9fe;
+  color: #333;
+  text-align: center;
+  padding: 1rem 0;
+}
+/*  Tablet  */
+@media screen and (min-width: 425px) {
+  .signup {
+    padding: 2rem 0;
+  }
+}
+
+/*  Desktop  */
+@media screen and (min-width: 768px) {
+  .signup {
+    grid-area: signup;
+    grid-column: 1 / span 3;
+    padding: 1rem 0;
+  }
+}
