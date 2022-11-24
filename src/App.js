@@ -1,7 +1,9 @@
 import Button from './components/Button/Button';
 import ButtonOne from './components/ButtonOne/ButtonOne';
+import ButtonThree from './components/ButtonThree/ButtonThree';
 import ButtonTwo from './components/ButtonTwo/ButtonTwo';
 import Form from './components/Form/Form';
+import GreetingForm from './components/GreetingForm/GreetingForm';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <h2>Task 1</h2>
       <ButtonOne />
       <ButtonTwo />
+      <ButtonThree />
+      <GreetingForm />
     </div>
   );
 }
